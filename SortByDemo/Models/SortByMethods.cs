@@ -4,7 +4,10 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 
-public static class SortByMethods
+/// <summary>
+/// List<T> 函数
+/// </summary>
+public static class SortByMethodExtension
 {
     /// <summary>
     /// 获取类公共字段/属性的值
